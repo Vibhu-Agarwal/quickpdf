@@ -6,9 +6,14 @@ authors = ["Vibhu Agarwal <vibhu4agarwal@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+PyPDF2 = "^1.26.0"
+click = "^8.0.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+
+[tool.poetry.scripts]
+quickpdf_merge = "quick_pdf.merge:merge_pdf"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
