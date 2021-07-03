@@ -1,11 +1,15 @@
 [tool.poetry]
 name = "quick_pdf"
-version = "0.1.0"
-description = ""
+version = "0.1.1"
+description = "CLI for quick PDF handling"
 authors = ["Vibhu Agarwal <vibhu4agarwal@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/Vibhu-Agarwal/quickpdf"
+repository = "https://github.com/Vibhu-Agarwal/quickpdf"
+keywords = ["PDF"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.8"
 PyPDF2 = "^1.26.0"
 click = "^8.0.1"
 
